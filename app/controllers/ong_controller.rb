@@ -1,0 +1,2 @@
+class OngController < ApplicationController
+end

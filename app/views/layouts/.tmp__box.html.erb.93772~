@@ -1,0 +1,39 @@
+<div id="Boxes">
+    	<div id="Ong">
+        	<div class="Titulo"><img src="/images/tit_ong.png" width="204" height="17" alt="ONG NOVO ANDAR" /></div>
+            
+            <img src="images/img_home_ong.jpg" />
+            <br /><br />
+            <p>
+            Conheça a ONG NOVO ANDAR e ajude-nos a continuar ACREDITANDO!
+            </p>
+            <br /><br />
+            <a href="ong.php" target=""><img src="/images/btn_conhecer.png" /></a>
+        </div>
+		
+        <div id="Newsletter">
+        	<div class="Titulo"><img src="/images/tit_newsletter.png" /></div>
+            <br /><br />
+            <p>Cadastre-se em nosa base e fique por dentro de tudo que acontece em nossa instituição.</p>
+            <br /><br /><br />
+            <input type="text" />
+             <br /><br />
+            
+            <a href="manutencao.php" target=""><img src="/images/btn_enviar.png" /></a>
+        </div>
+    	
+        <div id="Apoio">
+        	<div class="Titulo"><img src="/images/tit_apoio.png" /></div>
+            
+            <img src="images/apoio.png" border="0" usemap="#Map" />
+            <map name="Map" id="Map">
+              <area shape="rect" coords="157,20,257,92" href="http://www.mkaa.com.br" target="_blank" />
+            </map>
+        </div>
+    </div>
+    <div id="SocialMedia">
+    	<a href="http://www.facebook.com/home.php?#!/pages/Sao-Paulo-Brazil/Acreditando/149383325081928?ref=ts" target="_blank"><img src="images/ico_face.png" /></a>
+        <a href="http://www.orkut.com.br/Main#Community?cmm=105286850" target="_blank"><img src="images/ico_orkut.png" /></a>
+        <a href="http://twitter.com/Acreditando_" target="_blank"><img src="images/ico_twitter.png" /></a>
+        <a href=" http://www.youtube.com/user/AcreditandoBrasil" target=""><img src="images/ico_youtube.png" /></a>
+    </div>

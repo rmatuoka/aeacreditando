@@ -1,0 +1,2 @@
+class OprogramaController < ApplicationController
+end

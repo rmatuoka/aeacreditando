@@ -1,0 +1,2 @@
+class SobrenosController < ApplicationController
+end

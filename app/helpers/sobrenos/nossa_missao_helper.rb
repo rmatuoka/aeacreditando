@@ -1,0 +1,2 @@
+module Sobrenos::NossaMissaoHelper
+end

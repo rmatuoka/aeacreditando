@@ -1,0 +1,11 @@
+<div id="Logo"><a href="home.php" target=""><img src="images/logo.png" width="263" height="77" alt="Acreditando" /></a></div>
+<div id="Menu">
+    <ul>
+        <li><a href="sobrenos.php" target=""><img src="images/menu/sobrenos-on.png" width="96" height="28" /></a></li>
+        <li><a href="oprograma.php" target=""><img src="images/menu/oprograma-on.png" width="105" height="28" /></a></li>
+        <li><a href="inscricoes.php" target=""><img src="images/menu/inscricoes-on.png" width="94" height="28" /></a></li>
+        <li><a href="faq.php" target=""><img src="images/menu/faq.png" width="92" height="28" /></a></li>
+        <li><a href="clientes.php" target=""><img src="images/menu/clientes-on.png" width="77" height="29" /></a></li>
+        <li><a href="contato.php" target=""><img src="images/menu/contato-on.png" width="77" height="29" /></a></li>
+    </ul>
+</div>

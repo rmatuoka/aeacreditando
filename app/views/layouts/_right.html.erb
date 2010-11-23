@@ -1,0 +1,41 @@
+
+<span class="Titulo"><img src="images/tit_ultimos_tweets.png" width="267" height="48" alt="Últimos Tweets" /></span>
+
+<%
+		#require das gems necessarias
+		
+		require 'rubygems'
+		require 'yaml'
+		require 'twitter'
+		
+		#autenticacao via httparty
+		
+		httpauth = Twitter::HTTPAuth.new('acreditando_', 'pwacreditar1*')
+		client = Twitter::Base.new(httpauth)
+		
+		search = Twitter::Search.new.from('acreditando_')
+		search.per_page(2)
+		
+		search.each  do |r| %>
+			<div id="Tweet"><%=r.text%>. <i><%=time_ago_in_words(r.created_at)%></i><br></div>
+		<%end%>
+<!--
+foreach($xml->channel->item as $node)
+{  
+	$data = strftime("%d/%m/%y", strtotime($node->pubDate));
+    echo "<div id=\"Tweet\">$node->title <i>$data</i></div> <img src=\"images/linha.png\" width=\"90%\" height=\"2\" />";
+}  
+
+ <img src="images/linha.png" width="90%" height="2" />
+
+<div id="Tweet">
+    Época São Paulo - Casal importa método de reabilitação para pessoas com lesão na medula http://t.co/FZUYUMu <i>6 days ago</i>
+</div>
+
+<img src="images/linha.png" width="90%" height="2" />
+
+<div id="Tweet">
+    Veja como ficou a fachada do Acreditando. Já começamos a receber inscrições. ENTRE EM CONTATO !!! http://twitpic.com/354ctb <i>6 day ago</i>
+</div> -->
+
+<a href="http://www.twitter.com/acreditando_" target="_blank" class="SigaNos">+ siga-nos no twitter</a><br /><br />
