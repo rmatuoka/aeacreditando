@@ -5,29 +5,21 @@
             <img src="/images/img_home_ong.jpg" />
             <br /><br />
             <p>
-            ConheÃ§a a ONG NOVO ANDAR e ajude-nos a continuar ACREDITANDO!
+            Conheça a ONG NOVO ANDAR e ajude-nos a continuar ACREDITANDO!
             </p>
             <br /><br />
             <a href="/ong" target=""><img src="/images/btn_conhecer.png" /></a>
         </div>
 		
         <div id="Newsletter">
-        	<% remote_form_for Newsletter.new, :update => "update_newsletter", :loading => "$('loading-newsletter').show();", :loaded => "$('loading-newsletter').hide();" do |f| %>
-			<div id="update_newsletter">
-				<div class="Titulo"><img src="/images/tit_newsletter.png" /></div>
-	            <br /><br />
-	            <p>Cadastre-se em nosa base e fique por dentro de tudo que acontece em nossa instituiÃ§Ã£o.</p>
-	            <br /><br /><br />
-	            <label>
-					<%=f.text_field :email%>
-				</label>
-	             <br /><br />
-	            
-				<%= image_submit_tag "btn_enviar.png", :style => "width:96px; height:28px;" %><br />
-	            <!-- <a href="manutencao.php" target=""><img src="/images/btn_enviar.png" /></a> -->
-				<%= image_tag "ajax-loader.gif", :style => 'display:none;', :id => 'loading-newsletter' %>
-			</div>
-			<% end %>
+        	<div class="Titulo"><img src="/images/tit_newsletter.png" /></div>
+            <br /><br />
+            <p>Cadastre-se em nosa base e fique por dentro de tudo que acontece em nossa instituição.</p>
+            <br /><br /><br />
+            <input type="text" />
+             <br /><br />
+            
+            <a href="manutencao.php" target=""><img src="/images/btn_enviar.png" /></a>
         </div>
     	
         <div id="Apoio">

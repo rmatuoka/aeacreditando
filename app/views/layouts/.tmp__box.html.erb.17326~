@@ -5,7 +5,7 @@
             <img src="/images/img_home_ong.jpg" />
             <br /><br />
             <p>
-            Conheça a ONG NOVO ANDAR e ajude-nos a continuar ACREDITANDO!
+            Conhe�a a ONG NOVO ANDAR e ajude-nos a continuar ACREDITANDO!
             </p>
             <br /><br />
             <a href="/ong" target=""><img src="/images/btn_conhecer.png" /></a>
@@ -16,14 +16,14 @@
 			<div id="update_newsletter">
 				<div class="Titulo"><img src="/images/tit_newsletter.png" /></div>
 	            <br /><br />
-	            <p>Cadastre-se em nosa base e fique por dentro de tudo que acontece em nossa instituição.</p>
+	            <p>Cadastre-se em nosa base e fique por dentro de tudo que acontece em nossa institui��o.</p>
 	            <br /><br /><br />
 	            <label>
 					<%=f.text_field :email%>
 				</label>
 	             <br /><br />
 	            
-				<%= image_submit_tag "btn_enviar.png", :style => "width:96px; height:28px;" %><br />
+				<%= image_submit_tag "btn_enviar.png", :style => "width:96px; height:28px;" %>
 	            <!-- <a href="manutencao.php" target=""><img src="/images/btn_enviar.png" /></a> -->
 				<%= image_tag "ajax-loader.gif", :style => 'display:none;', :id => 'loading-newsletter' %>
 			</div>
