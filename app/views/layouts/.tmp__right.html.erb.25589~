@@ -1,5 +1,5 @@
 
-<span class="Titulo"><img src="/images/tit_ultimos_tweets.png" width="267" height="48" alt="�ltimos Tweets" /></span>
+<span class="Titulo"><img src="images/tit_ultimos_tweets.png" width="267" height="48" alt="�ltimos Tweets" /></span>
 
 <%
 		#require das gems necessarias

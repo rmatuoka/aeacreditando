@@ -128,7 +128,7 @@ body
 					font-famiy:Verdana !important;
 					font-size:18px !important;
 					color:#A5CCD2 !important;
-
+					vertical-align:middle;
 				}
 				
 				#Geral #Content #Noticias .Noticia .Texto
@@ -139,6 +139,7 @@ body
 					display:inline-block;
 					width:450px;
 					float:right;
+					vertical-align:middle;
 				}
 		
 		#Geral #Content #Noticias #BoxNoticiaPrincipal
@@ -157,6 +158,7 @@ body
 		#Geral #Content #Noticias .Titulo
 		{
 			margin-bottom:4px;
+			
 		}
 		
 		#Geral #Content #Twitter
@@ -369,4 +371,12 @@ body
 {
 	background-image:url('/images/bg_splash.jpg') !important;
 	background-position:center!important;
+}
+
+#Interna .Titulo
+{
+	font-family:Verdana !important;
+	font-size:18px !important;
+	color:#6CAAB5 !important;	
+}
 }

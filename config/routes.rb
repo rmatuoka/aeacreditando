@@ -23,6 +23,7 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :inscricoes, :singular => :inscricoes_item
   map.resources :ong, :singular => :ong_item
   map.resources :newsletters
+  map.resources :noticias
 
   
   map.oprograma "/oprograma", :controller => "oprograma/home"

@@ -2,11 +2,13 @@
             <div id="BoxNoticiaPrincipal">
                 <span id="" class="Titulo"><img src="images/tit_novidades.png" width="173" height="21" alt="Novidades" /></span>
                 <%if !@NoticiaDest.blank?%>
-				<div id=""><img src="images/noticia_home.png" width="539" height="261" /></div>
-            
+					<div id=""><%=image_tag(SERVIDOR + @NoticiaDest.image.url("home"))%></div>
+				<%end%>
+				
+				<%if !@NoticiaDest.blank?%>
             	<div class="Noticia">
-                	<span class="Data">16.11.2010</span>
-                    <span class="Texto"><%=@NoticiaDest.title%></span>
+                	<span class="Data"><%=@NoticiaDest.created_at.to_date.strftime("%d/%m/%Y")%></span>
+                    <span class="Texto"><%=link_to @NoticiaDest.title, noticia_path(@NoticiaDest)%></span>
                 </div>
 				<%end%>
             </div>
@@ -17,7 +19,7 @@
 					<%@Noticias.each do |n|%>
 						<div class="Noticia">
 		                    <span class="Data"><%=n.created_at.to_date.strftime("%d/%m/%Y")%></span>
-		                    <span class="Texto"><%=link_to n.title, "#" %></span>
+		                    <span class="Texto"><%=link_to n.title, noticia_path(n) %></span>
 		                </div>
 		                
 		                <img src="images/linha.png" width="100%" height="2" />
