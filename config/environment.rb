@@ -11,4 +11,4 @@ Rails::Initializer.run do |config|
   config.time_zone = 'UTC'
 end
 
-SERVIDOR = "http://localhost:3013"
+SERVIDOR = "http://admin.acreditando.com.br"
