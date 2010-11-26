@@ -52,6 +52,10 @@ body
 			{
 				display:inline-block;
 				margin-right:5px;
+				zoom: 1;
+				*display: inline;
+				height:auto;
+				min-height:29px;
 			}
 	
 	#Geral #Destaque
