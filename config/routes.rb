@@ -24,13 +24,14 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :ong, :singular => :ong_item
   map.resources :newsletters
   map.resources :noticias
+  map.resources :splash, :singular => :splash_item
 
   
   map.oprograma "/oprograma", :controller => "oprograma/home"
   map.sobrenos "/sobrenos", :controller => "sobrenos/home"
   #map.admin "/admin", :controller => "admin/home"
   
-  map.root :home
+  map.root :splash
   
   map.connect ':controller/:action/:id'
   map.connect ':controller/:action/:id.:format'
