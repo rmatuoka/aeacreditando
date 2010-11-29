@@ -28,8 +28,6 @@
 		                <img src="images/linha.png" width="100%" height="2" />
 					<%end%>
                 <%end%>
-				
-				<%=link_to "+ ver todas notícias", noticias_path, :class => "Todas"%>
                 
 				<!-- <div class="Noticia">
                     <span class="Data">14.11.2010</span>

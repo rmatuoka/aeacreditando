@@ -145,6 +145,13 @@ body
 					float:right;
 					vertical-align:middle;
 				}
+				
+				#Geral #Content #Noticias .Noticia .Todas
+				{
+					font-family: !important;
+					font-size:16px !important;
+					color: #A5CCD2 !important;
+				}
 		
 		#Geral #Content #Noticias #BoxNoticiaPrincipal
 		{

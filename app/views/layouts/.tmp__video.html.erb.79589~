@@ -1,9 +1,9 @@
 <div id="Video">
         	<object width="320" height="250">
-                <param name="movie" value="http://www.youtube.com/v/1L2pcG63yaU?fs=1&amp;hl=pt_BR"></param>
+                <param name="movie" value="http://www.youtube.com/v/8Fa5nnNevcg?fs=1&amp;hl=pt_BR"></param>
                 <param name="allowFullScreen" value="true"></param>
                 <param name="allowscriptaccess" value="always"></param>
-                <embed src="http://www.youtube.com/v/1L2pcG63yaU?fs=1&amp;hl=pt_BR" type="application/x-shockwave-flash" 
+                <embed src="http://www.youtube.com/v/8Fa5nnNevcg?fs=1&amp;hl=pt_BR" type="application/x-shockwave-flash" 
                     allowscriptaccess="always" 
                     allowfullscreen="true" 
                     width="320" height="250"></embed>
