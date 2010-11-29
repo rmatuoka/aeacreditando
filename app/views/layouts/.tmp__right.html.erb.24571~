@@ -17,7 +17,7 @@
 		search.per_page(2)
 		
 		search.each  do |r| %>
-			<div id="Tweet"><a href="http://www.twitter.com/acreditando_"><%=r.text%> </a>. <i><%=time_ago_in_words(r.created_at)%></i><br></div>
+			<div id="Tweet"><%=r.text%>. <i><%=time_ago_in_words(r.created_at)%></i><br></div>
 		<%end%>
 <!--
 foreach($xml->channel->item as $node)
