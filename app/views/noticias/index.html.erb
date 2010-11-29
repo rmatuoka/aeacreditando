@@ -1,0 +1,14 @@
+<%content_for :destaque do%>
+	<img src="/images/destaque_interna.jpg" width="960" height="309" alt="Eu acredito, você acredita?" />
+<%end%>
+
+<div id="Interna">
+    <span id="" class="Titulo">Lista de Notícias<br /><br /></span>        
+     	<div>
+        	<%if !@Noticias.blank?%>
+				<%@Noticias.each do |n|%>
+					<%=link_to "> " + n.title, noticia_path(n)%><br>
+				<%end%>
+			<%end%>
+        </div>         
+</div>
