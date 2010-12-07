@@ -29,6 +29,7 @@ ActionController::Routing::Routes.draw do |map|
   
   map.oprograma "/oprograma", :controller => "oprograma/home"
   map.sobrenos "/sobrenos", :controller => "sobrenos/home"
+  map.fundadores "fundadores", :controller => "fundadores/home"
   #map.admin "/admin", :controller => "admin/home"
   
   map.root :splash
