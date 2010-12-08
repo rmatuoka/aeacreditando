@@ -33,7 +33,7 @@
         <div id="Apoio">
         	<div class="Titulo"><img src="/images/tit_apoio.png" /></div>
             
-            <img src="/images/apoio.png" border="0" usemap="#Map" />
+            <img src="images/apoio.png" border="0" usemap="#Map" />
             <map name="Map" id="Map">
               <area shape="rect" coords="157,20,257,92" href="http://www.mkaa.com.br" target="_blank" />
             </map>
